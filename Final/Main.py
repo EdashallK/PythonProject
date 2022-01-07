@@ -1,0 +1,25 @@
+import Final
+
+while True:
+    print("Here is a roster control panel")
+    print("1:Create Student ")
+    print("2:Display Roster.")
+    print("3:Display all names")
+    print("4:Display All Classes")
+    print("5:Display all Ids")
+    print("6:Search by name")
+    print("7:Search by class")
+    print("8:Search by ID")
+    print("9:Remove Student")
+    print("10:Exit menu")
+    choice = int(input("Select an option"))
+    if choice == 1: Final.create_student()
+    if choice == 2: Final.display_all_students()
+    if choice == 3: Final.display_name()
+    if choice == 4: Final.display_classes()
+    if choice == 5: Final.display_IDs()
+    if choice == 6: Final.search_by_name()
+    if choice == 7: Final.search_by_class()
+    if choice == 8: Final.search_by_id()
+    if choice == 9: Final.delete_student()
+    if choice == 10: break
